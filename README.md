@@ -81,7 +81,10 @@ Librería o Biblioteca -> Solamente tiene codigo de terceros que aumenta la func
 
 const [count, setCount]= useState(0);
 
-// El batching lo que hace es agrupar y después ejecuta
+# Batching
+
+- EL Batching: Es cuando se ejecuta varios cambios de estados al mismo tiempo
+  // El batching lo que hace es agrupar y después ejecuta
 
 setCount(count+1); // 0+1
 setCount(count+1); // 0+1
